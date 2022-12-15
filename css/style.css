@@ -40,10 +40,6 @@ classe debug inserita nel body
     padding: 10px;
 }
 
-.debug .section-3, .section-5{
- background-color: #D3D3D3;
-}
-
 /* .debug .col{
     background-color: #DAA520;
     padding: 5px;
@@ -228,12 +224,14 @@ p{
     flex-basis: 60%;
 }
 
-
 .col-40{
     flex-basis: 40%;
     padding: 0px 40px;
 }
 
+.grey{
+    background-color: #D3D3D3;
+   }
 
 .col25{
     flex-basis: calc( (100%/6) *2 );
