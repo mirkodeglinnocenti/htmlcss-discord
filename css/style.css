@@ -72,17 +72,14 @@ classe debug inserita nel body
     border: 1px dashed black;
 }
 
-.debug .col-60{
-    border: 1px dashed black;
-}
 
-.debug .col-70{
+.debug .col-60{
     background-color: #1E90FF;
     border: 1px dashed black;
     min-height: 300px;
 }
 
-.debug .col-30{
+.debug .col-40{
     background-color: rgb(252, 187, 198);
     border: 1px dashed black;
     min-height: 300px;
@@ -166,6 +163,10 @@ nav > span{
     padding: 20px 0;
 }
 
+.p-100{
+    padding: 100px 0;
+}
+
 .hero{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -196,6 +197,11 @@ p{
     font-size: 22px;
 }
 
+.row p{
+    color: black;
+    font-size: 18px;
+}
+
 .row-hero .title, p{
     color: white;
 }
@@ -218,13 +224,14 @@ p{
     margin-left: 10px;
 }
 
-.col-70{
-    flex-basis: calc( (100%/3) *2 );
+.col-60{
+    flex-basis: 60%;
 }
 
 
-.col-30{
-    flex-basis: calc( (100%/3) );
+.col-40{
+    flex-basis: 40%;
+    padding: 0px 40px;
 }
 
 
