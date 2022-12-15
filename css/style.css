@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.debug header{
+    background-color: #ADD8E6;
+    padding: 10px;
+}
+
+.debug .container{
+    border: 3px dashed black;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.debug .container-fw{
+    border: 3px dashed black;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.debug .section-1{
+    background-color: #00008B;
+    padding: 10px;
+}
+
+.debug .section-3, .section-5{
+ background-color: #D3D3D3;
+}
+
+.debug .col{
+    background-color: #DAA520;
+    padding: 5px;
+}
+
+.debug .row{
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.debug .row-section1{
+    background-color: #EE82EE;
+    min-height: 300px;
+}
+
+.debug .row-section5{
+    min-height: 600px;
+    background-color: green;
+}
+
+.debug .main-footer, .small-footer{
+    background-color: #23272A;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-rev{
+    flex-direction: row-reverse;
+}
+
+.col-20{
+    flex-basis: calc(100%/5);
+    border: 1px dashed black;
+}
+
+.debug .col-20{
+    border: 1px dashed black;
+}
+
+.col-60{
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.t-dx{
+    text-align: right;
+}
+
+.debug .col-60{
+    border: 1px dashed black;
+}
+
+.col-70{
+    flex-basis: calc( (100%/3) *2 );
+}
+
+.debug .col-70{
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.col-30{
+    flex-basis: calc( (100%/3) );
+}
+
+.debug .col-30{
+    background-color: rgb(252, 187, 198);
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+
+.col25{
+    flex-basis: calc( (100%/6) *2 );
+    order: -1;
+}
+
+.debug .col25{
+    background-color: #F08080;
+    min-height: 450px;
+    border: 2px dotted black;
+}
+
+.col15{
+    flex-basis: calc( (100%/6));
+}
+
+.debug .col15{
+    background-color: #20B2AA;
+    min-height: 450px;
+    border: 2px dotted white;
+}
+
+.row-footer{
+    justify-content: space-between;
+}
+
+.debug .row-footer{
+    background-color: #7FFFD4;
+}
+
+.row-footer .col{
+    background-color: #F08080;
+}
