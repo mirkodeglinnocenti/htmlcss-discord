@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+li,
+menu{
+    list-style: none;
+}
+
+/**********
+Debug Rules
+classe debug inserita nel body
+***********/
+/* .debug .main-header{
+    background-color: #ADD8E6;
+    padding: 10px;
+} */
+
+/* .debug .container{
+    border: 3px dashed black;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+} */
+
+/* .debug .container-small{
+    border: 3px dashed black;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+} */
+
+/* .debug .hero{
+    background-color: #00008B;
+    padding: 10px;
+} */
+
+/* .debug .col{
+    background-color: #DAA520;
+    padding: 5px;
+} */
+
+/* .debug .row{
+    border: 2px solid black;
+    padding: 15px;
+} */
+
+/* .debug .row-hero{
+    background-color: #EE82EE;
+    min-height: 300px;
+} */
+
+.debug .col-20{
+    border: 1px dashed black;
+}
+
+
+.debug .col-60{
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.debug .col-40{
+    background-color: rgb(252, 187, 198);
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.debug .row-footer{
+    background-color: #7FFFD4;
+}
+
+/**********
+End Debug Rules
+***********/
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-rev{
+    flex-direction: row-reverse;
+}
+
+nav > span{
+    color: white;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.col-grow{
+    flex-grow: 1;
+}
+
+.col-dx{
+    text-align: right;
+    width: 124px;
+}
+
+.col-center{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 8px 12px;
+    background-color: #7289DA;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.button-white{
+    color: black;
+    background-color: white;
+}
+
+.button-black{
+    color: white;
+    background-color: #23272A;
+}
+
+.main-header{
+    background-color: #255ee9;
+}
+
+.p-20{
+    padding: 20px 0;
+}
+
+.p-60{
+    padding-top: 60px;
+}
+
+.p-100{
+    padding: 100px 0;
+}
+
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.container-small{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.row-hero{
+    height: 600px;
+    padding: 220px 0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.col-100{
+    flex-basis: 100%;
+}
+
+.title{
+    color: black;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.row p{
+    color: black;
+    font-size: 18px;
+}
+
+.row-hero .title, p{
+    color: white;
+}
+
+.row-hero .button{
+    font-size: 22px;
+    padding: 12px 30px;
+}
+
+.row-hero p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.col-100:first-child .button-white{
+    margin-right: 10px;
+}
+
+.col-100:first-child .button-black{
+    margin-left: 10px;
+}
+
+.col-60{
+    flex-basis: 60%;
+}
+
+.col-40{
+    flex-basis: 40%;
+    padding: 0px 40px;
+}
+
+.grey{
+    background-color: #eeeeee;
+}
+
+/* .waves::before{
+    background-image: url(../img/wave.svg);
+    content: 'url(../img/wave.svg)';
+    display: block;
+} */
+
+.waves{
+   margin-bottom: -10px;
+}
+
+.waves-rotate{
+    transform: rotate(180deg);
+    margin-top: -10px;
+}
+
+.pre-footer{
+    padding: 30px 0;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.pre-footer h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.col25{
+    flex-basis: calc( (100%/6) *2 );
+    min-height: 450px;
+}
+
+.col15{
+    flex-basis: calc( (100%/6));
+    min-height: 450px;
+}
+
+.main-footer{
+    color: white;
+}
+
+.main-footer, .small-footer{
+    background-color: #23272A;
+}
+
+.main-footer li{
+    padding: 6px 0;
+}
+
+.main-footer h4{
+    font-size: 24px;
+    color: #7289DA;
+    padding-bottom: 12px;
+}
+
+.main-footer .col25{
+    padding-top: 6px;
+}
+
+.main-footer img{
+    width: 20px;
+}
+
+.col25 > span{
+    font-size: 12px;
+}
+
+.social-icon{
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.main-footer li:first-child{
+    color: #7289DA;
+}
+
+.row-footer{
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #7289DA;
+}
