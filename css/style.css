@@ -148,7 +148,7 @@ nav > span{
 }
 
 .p-60{
-    padding: 60px 0;
+    padding-top: 60px;
 }
 
 .p-100{
@@ -293,10 +293,7 @@ p{
 
 .row-footer{
     justify-content: space-between;
-}
-
-
-
-.row-footer .col{
-    background-color: #F08080;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #7289DA;
 }
