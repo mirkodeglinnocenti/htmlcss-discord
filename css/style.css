@@ -55,11 +55,6 @@ classe debug inserita nel body
     min-height: 300px;
 } */
 
-.debug .row-section5{
-    min-height: 600px;
-    background-color: green;
-}
-
 .debug .main-footer, .small-footer{
     background-color: #23272A;
 }
@@ -174,9 +169,12 @@ nav > span{
 }
 
 .row-hero{
-    text-align: center;
     height: 600px;
     padding: 220px 0px;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .col-100{
