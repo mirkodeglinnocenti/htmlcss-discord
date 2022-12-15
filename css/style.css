@@ -21,21 +21,21 @@ classe debug inserita nel body
     padding: 10px;
 } */
 
-.debug .container{
+/* .debug .container{
     border: 3px dashed black;
     padding: 20px;
     margin: 0 auto;
     max-width: 900px;
-}
+} */
 
-.debug .container-fw{
+/* .debug .container-small{
     border: 3px dashed black;
     padding: 20px;
     margin: 0 auto;
     max-width: 700px;
-}
+} */
 
-.debug .section-1{
+.debug .hero{
     background-color: #00008B;
     padding: 10px;
 }
@@ -44,20 +44,20 @@ classe debug inserita nel body
  background-color: #D3D3D3;
 }
 
-.debug .col{
+/* .debug .col{
     background-color: #DAA520;
     padding: 5px;
-}
+} */
 
 .debug .row{
     border: 2px solid black;
     padding: 15px;
 }
 
-.debug .row-section1{
+/* .debug .row-hero{
     background-color: #EE82EE;
     min-height: 300px;
-}
+} */
 
 .debug .row-section5{
     min-height: 600px;
@@ -143,13 +143,19 @@ nav > span{
 .button{
     padding: 8px 12px;
     background-color: #7289DA;
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
+    font-weight: 600;
 }
 
-.main-header .button{
+.button-white{
     color: black;
     background-color: white;
+}
+
+.button-black{
+    color: white;
+    background-color: #23272A;
 }
 
 .main-header{
@@ -160,6 +166,58 @@ nav > span{
     padding: 20px 0;
 }
 
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.container-small{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.row-hero{
+    text-align: center;
+    height: 600px;
+    padding: 220px 0px;
+}
+
+.col-100{
+    flex-basis: 100%;
+}
+
+.title{
+    color: black;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 22px;
+}
+
+.row-hero .title, p{
+    color: white;
+}
+
+.row-hero .button{
+    font-size: 22px;
+    padding: 12px 30px;
+}
+
+.row-hero p{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.col-100:first-child .button-white{
+    margin-right: 10px;
+}
+
+.col-100:first-child .button-black{
+    margin-left: 10px;
+}
+
 .col-70{
     flex-basis: calc( (100%/3) *2 );
 }
@@ -168,8 +226,6 @@ nav > span{
 .col-30{
     flex-basis: calc( (100%/3) );
 }
-
-
 
 
 .col25{
