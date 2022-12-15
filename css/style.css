@@ -8,14 +8,18 @@ img{
     max-width: 100%;
 }
 
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
 /**********
 Debug Rules
 classe debug inserita nel body
 ***********/
-.debug header{
+/* .debug .main-header{
     background-color: #ADD8E6;
     padding: 10px;
-}
+} */
 
 .debug .container{
     border: 3px dashed black;
@@ -101,6 +105,11 @@ classe debug inserita nel body
 End Debug Rules
 ***********/
 
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
 .row{
     display: flex;
     align-items: center;
@@ -111,18 +120,44 @@ End Debug Rules
     flex-direction: row-reverse;
 }
 
-.col-20{
-    flex-basis: calc(100%/5);
-    border: 1px dashed black;
+nav > span{
+    color: white;
+    padding: 0 20px;
+    font-size: 16px;
 }
 
-.col-60{
-    flex-basis: 60%;
-    text-align: center;
+.col-grow{
+    flex-grow: 1;
 }
 
-.t-dx{
+.col-dx{
     text-align: right;
+    width: 124px;
+}
+
+.col-center{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 8px 12px;
+    background-color: #7289DA;
+    border-radius: 20px;
+    color: white;
+}
+
+.main-header .button{
+    color: black;
+    background-color: white;
+}
+
+.main-header{
+    background-color: #255ee9;
+}
+
+.p-20{
+    padding: 20px 0;
 }
 
 .col-70{
