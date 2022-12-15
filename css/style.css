@@ -8,6 +8,10 @@ img{
     max-width: 100%;
 }
 
+/**********
+Debug Rules
+classe debug inserita nel body
+***********/
 .debug header{
     background-color: #ADD8E6;
     padding: 10px;
@@ -60,6 +64,43 @@ img{
     background-color: #23272A;
 }
 
+.debug .col-20{
+    border: 1px dashed black;
+}
+
+.debug .col-60{
+    border: 1px dashed black;
+}
+
+.debug .col-70{
+    background-color: #1E90FF;
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.debug .col-30{
+    background-color: rgb(252, 187, 198);
+    border: 1px dashed black;
+    min-height: 300px;
+}
+.debug .col25{
+    background-color: #F08080;
+    min-height: 450px;
+    border: 2px dotted black;
+}
+.debug .col15{
+    background-color: #20B2AA;
+    min-height: 450px;
+    border: 2px dotted white;
+}
+.debug .row-footer{
+    background-color: #7FFFD4;
+}
+
+/**********
+End Debug Rules
+***********/
+
 .row{
     display: flex;
     align-items: center;
@@ -75,10 +116,6 @@ img{
     border: 1px dashed black;
 }
 
-.debug .col-20{
-    border: 1px dashed black;
-}
-
 .col-60{
     flex-basis: 60%;
     text-align: center;
@@ -88,29 +125,16 @@ img{
     text-align: right;
 }
 
-.debug .col-60{
-    border: 1px dashed black;
-}
-
 .col-70{
     flex-basis: calc( (100%/3) *2 );
 }
 
-.debug .col-70{
-    background-color: #1E90FF;
-    border: 1px dashed black;
-    min-height: 300px;
-}
 
 .col-30{
     flex-basis: calc( (100%/3) );
 }
 
-.debug .col-30{
-    background-color: rgb(252, 187, 198);
-    border: 1px dashed black;
-    min-height: 300px;
-}
+
 
 
 .col25{
@@ -118,29 +142,19 @@ img{
     order: -1;
 }
 
-.debug .col25{
-    background-color: #F08080;
-    min-height: 450px;
-    border: 2px dotted black;
-}
+
 
 .col15{
     flex-basis: calc( (100%/6));
 }
 
-.debug .col15{
-    background-color: #20B2AA;
-    min-height: 450px;
-    border: 2px dotted white;
-}
+
 
 .row-footer{
     justify-content: space-between;
 }
 
-.debug .row-footer{
-    background-color: #7FFFD4;
-}
+
 
 .row-footer .col{
     background-color: #F08080;
