@@ -12,6 +12,12 @@ html{
     font-family: 'Open Sans', sans-serif;
 }
 
+ul,
+li,
+menu{
+    list-style: none;
+}
+
 /**********
 Debug Rules
 classe debug inserita nel body
@@ -35,29 +41,25 @@ classe debug inserita nel body
     max-width: 700px;
 } */
 
-.debug .hero{
+/* .debug .hero{
     background-color: #00008B;
     padding: 10px;
-}
+} */
 
 /* .debug .col{
     background-color: #DAA520;
     padding: 5px;
 } */
 
-.debug .row{
+/* .debug .row{
     border: 2px solid black;
     padding: 15px;
-}
+} */
 
 /* .debug .row-hero{
     background-color: #EE82EE;
     min-height: 300px;
 } */
-
-.debug .main-footer, .small-footer{
-    background-color: #23272A;
-}
 
 .debug .col-20{
     border: 1px dashed black;
@@ -75,16 +77,7 @@ classe debug inserita nel body
     border: 1px dashed black;
     min-height: 300px;
 }
-.debug .col25{
-    background-color: #F08080;
-    min-height: 450px;
-    border: 2px dotted black;
-}
-.debug .col15{
-    background-color: #20B2AA;
-    min-height: 450px;
-    border: 2px dotted white;
-}
+
 .debug .row-footer{
     background-color: #7FFFD4;
 }
@@ -152,6 +145,10 @@ nav > span{
 
 .p-20{
     padding: 20px 0;
+}
+
+.p-60{
+    padding: 60px 0;
 }
 
 .p-100{
@@ -229,20 +226,70 @@ p{
 
 .grey{
     background-color: #D3D3D3;
-   }
+}
+
+.pre-footer{
+    padding: 30px 0;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.pre-footer h4{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
 
 .col25{
     flex-basis: calc( (100%/6) *2 );
-    order: -1;
+    min-height: 450px;
 }
-
-
 
 .col15{
     flex-basis: calc( (100%/6));
+    min-height: 450px;
 }
 
+.main-footer{
+    color: white;
+}
 
+.main-footer, .small-footer{
+    background-color: #23272A;
+}
+
+.main-footer li{
+    padding: 6px 0;
+}
+
+.main-footer h4{
+    font-size: 24px;
+    color: #7289DA;
+    padding-bottom: 12px;
+}
+
+.main-footer .col25{
+    padding-top: 6px;
+}
+
+.main-footer img{
+    width: 20px;
+}
+
+.col25 > span{
+    font-size: 12px;
+}
+
+.social-icon{
+    color: white;
+    display: flex;
+    gap: 15px;
+}
+
+.main-footer li:first-child{
+    color: #7289DA;
+}
 
 .row-footer{
     justify-content: space-between;
