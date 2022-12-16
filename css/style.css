@@ -93,7 +93,6 @@ End Debug Rules
 
 .row{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -141,6 +140,7 @@ nav > span{
 
 .main-header{
     background-color: #255ee9;
+    padding: 25px 0;
 }
 
 .p-20{
@@ -221,11 +221,18 @@ p{
 
 .col-40{
     flex-basis: 40%;
-    padding: 0px 40px;
+}
+
+.col-paddingr{
+    padding: 20px 100px 0 0;
+}
+
+.col-paddinglf{
+    padding: 20px 0 0 100px;
 }
 
 .grey{
-    background-color: #D3D3D3;
+    background-color: #eee;
 }
 
 .pre-footer{
