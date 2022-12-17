@@ -180,7 +180,7 @@ nav > span{
 
 .title{
     color: black;
-    font-size: 44px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -271,7 +271,7 @@ p{
 }
 
 .main-footer h4{
-    font-size: 24px;
+    font-size: 36px;
     color: #7289DA;
     padding-bottom: 12px;
 }
@@ -285,7 +285,7 @@ p{
 }
 
 .col25 > span{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .social-icon{
@@ -294,8 +294,12 @@ p{
     gap: 15px;
 }
 
-.main-footer li:first-child{
+.main-footer .col15 li:first-child{
     color: #7289DA;
+}
+
+.main-footer.social-icon.fa-brands{
+    color: white;
 }
 
 .row-footer{
