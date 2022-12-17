@@ -93,7 +93,6 @@ End Debug Rules
 
 .row{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
@@ -141,6 +140,7 @@ nav > span{
 
 .main-header{
     background-color: #255ee9;
+    padding: 25px 0;
 }
 
 .p-20{
@@ -180,7 +180,7 @@ nav > span{
 
 .title{
     color: black;
-    font-size: 44px;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -221,26 +221,18 @@ p{
 
 .col-40{
     flex-basis: 40%;
-    padding: 0px 40px;
+}
+
+.col-paddingr{
+    padding: 20px 100px 0 0;
+}
+
+.col-paddinglf{
+    padding: 20px 0 0 100px;
 }
 
 .grey{
-    background-color: #eeeeee;
-}
-
-/* .waves::before{
-    background-image: url(../img/wave.svg);
-    content: 'url(../img/wave.svg)';
-    display: block;
-} */
-
-.waves{
-   margin-bottom: -10px;
-}
-
-.waves-rotate{
-    transform: rotate(180deg);
-    margin-top: -10px;
+    background-color: #eee;
 }
 
 .pre-footer{
@@ -279,7 +271,7 @@ p{
 }
 
 .main-footer h4{
-    font-size: 24px;
+    font-size: 36px;
     color: #7289DA;
     padding-bottom: 12px;
 }
@@ -293,7 +285,7 @@ p{
 }
 
 .col25 > span{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .social-icon{
@@ -302,8 +294,12 @@ p{
     gap: 15px;
 }
 
-.main-footer li:first-child{
+.main-footer .col15 li:first-child{
     color: #7289DA;
+}
+
+.main-footer.social-icon.fa-brands{
+    color: white;
 }
 
 .row-footer{
@@ -312,3 +308,17 @@ p{
     padding-top: 20px;
     border-top: 1px solid #7289DA;
 }
+
+/* .mirko::before{
+    content: url("../img/wave.svg");
+    color: #e43516;
+} */
+
+.waves{
+    margin-bottom: -10px;
+ }
+ 
+ .waves-rotate{
+     transform: rotate(180deg);
+     margin-top: -10px;
+ }
